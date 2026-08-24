@@ -10,7 +10,10 @@ namespace Clase{
         nuevoauto.Marca = "Toyota";
         nuevoauto.Modelo = "Supra";
         nuevoauto.Anio = 2026;
-        nuevoauto.Velocidadactual = 100;
+        nuevoauto.Velocidadactual = 0;
+        nuevoauto.MostrarInformacion();
+        nuevoauto.Acelerar(150);
+        nuevoauto.Frenar(70);
         nuevoauto.MostrarInformacion();
     }
 }
