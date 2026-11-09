@@ -95,10 +95,10 @@ namespace tallerenclase
 
             Console.WriteLine("=== SIMULACIÓN DE OPERACIONES ===");
 
-            double costo101 = hab101.Reservar("Juana Pérez", 3);
+            double costo101 = hab101.Reservar("Emmnauel sanchez", 3);
             Console.WriteLine($"-> Reservando hab. 101 para Juana Pérez (3 noches). Costo total: ${costo101}");
 
-            double costo202 = hab202.Reservar("Luis Gómez", 2);
+            double costo202 = hab202.Reservar("jose perez", 2);
             Console.WriteLine($"-> Reservando hab. 202 para Luis Gómez (2 noches). Costo total: ${costo202}");
 
             double intento101 = hab101.Reservar("Otro Cliente", 1);
@@ -110,7 +110,7 @@ namespace tallerenclase
             hab303.AplicarDescuento(10);
             Console.WriteLine("-> Aplicando 10% de descuento a la habitación 303.");
 
-            double costo101Carlos = hab101.Reservar("Carlos Ruiz", 1);
+            double costo101Carlos = hab101.Reservar("juan salamanca", 1);
             Console.WriteLine($"-> Reservando hab. 101 para Carlos Ruiz (1 noche). Costo total: ${costo101Carlos}");
             Console.WriteLine("===================================\n");
 
